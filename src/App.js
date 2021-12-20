@@ -9,8 +9,9 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route exact path="/" element={<Posts /> } />
-        <Route exact path="Posts/:id" element={<OpenPost /> } />
+        <Route exact path="/react_pr2" element={<Posts /> } />
+        <Route exact path="/posts" element={<Posts /> } />
+        <Route exact path="/posts/:id" element={<OpenPost /> } />
       </Routes>
     </div>
   );
